@@ -56,6 +56,11 @@ python-libnmap = ">=0.7.3"
 resource = ">=0.2.1"
 oscrypto = { git = "https://github.com/NeffIsBack/oscrypto" }
 
+[[tool.poetry.source]]
+name = "impacket"
+url = "git+https://github.com/fortra/impacket.git"
+priority = "supplemental"
+
 [tool.poetry.group.dev.dependencies]
 flake8 = "*"
 pylint = "*"
